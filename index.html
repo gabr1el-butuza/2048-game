@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>2048</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <section class="heading">
+        <h1 class="title">2048</h1>
+    </section>
+    <section class="container">
+        <div class="scores-container">
+            <div class="score-container">
+                <p class="text-container">Score: 0</p>
+            </div>
+            <div class="score-container">
+                <p class="text-container">Best: 0</p>
+            </div>
+        </div>
+        <br>
+        <div class="above-game">
+            <p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p>
+        </div>
+        <div class="buttons">
+            <button class="new-btn"><b>New game</b></button>
+            <button class="new-tile"><b>New tile</b></button>
+        </div>
+
+            
+        <br>
+        <div class="grid-container">
+            <div class="grid-row">
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+            </div>
+            <div class="grid-row">
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+            </div>
+            <div class="grid-row">
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+            </div>
+            <div class="grid-row">
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+            </div>
+        </div>
+    </section>
+    <section class="game-explanation">
+        <p class="explain"><strong>HOW TO PLAY: </strong>Use your <strong>arrow keys </strong> to move the tiles. 
+            When two tiles with the same number touch, they <strong>merge into one!</strong>
+        </p>
+    </section>
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="game.js"></script>
+</body>
+
+</html>
